@@ -6,3 +6,13 @@
 <h1>@ViewData["Title"]</h1>
 <p>Need help with building a story about yourself?</p>
 <p>This is the right place to practice! 😊</p>
+
+<button id="micBtn" type="button">Talk</button>
+<span id="status"></span>
+
+<ul id="chat"></ul>
+
+@section Scripts {
+    <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+    <script src="~/js/behavioral-speech.js"></script>
+}
